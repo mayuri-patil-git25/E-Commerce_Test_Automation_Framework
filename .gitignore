@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore IDE config files (for PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore environment variable files (if any)
+.env
+
+# Ignore Selenium driver logs
+geckodriver.log
+chromedriver.log
